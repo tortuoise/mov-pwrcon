@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pwrcon-rescue)(type Legacy)(uri ${KIPRJMOD}/pwrcon_1-rescue.lib)(options "")(descr ""))
+)
