@@ -654,7 +654,7 @@ U 1 1 5DA5D055
 P 5725 4750
 F 0 "J5" H 5753 4776 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 5753 4685 50  0000 L CNN
-F 2 "pwrcon:SolderWirePad_1x03_P2.54mm_Drill0.8mm" H 5725 4750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5725 4750 50  0001 C CNN
 F 3 "~" H 5725 4750 50  0001 C CNN
 	1    5725 4750
 	1    0    0    -1  
@@ -681,7 +681,7 @@ U 1 1 5DA8C75A
 P 5950 5175
 F 0 "J7" H 5978 5201 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 5978 5110 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5950 5175 50  0001 C CNN
+F 2 "pwrcon:SolderWirePad_1x03_P2.54mm_Drill0.8mm" H 5950 5175 50  0001 C CNN
 F 3 "~" H 5950 5175 50  0001 C CNN
 	1    5950 5175
 	1    0    0    -1  

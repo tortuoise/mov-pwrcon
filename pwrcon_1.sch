@@ -73,7 +73,7 @@ F 1 "Q_PNP_BCE" H 3490 4555 50  0000 L CNN
 F 2 "pwrcon:TO-92_BC237_307" H 3500 4700 50  0001 C CNN
 F 3 "~" H 3300 4600 50  0001 C CNN
 	1    3300 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3400 4400 3400 4100
