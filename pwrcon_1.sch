@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:pwrcon_1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -310,12 +309,12 @@ L pwrcon-rescue:STM32F302K_QFPN32_4-baseunit PSU1
 U 1 1 5BE0865A
 P 7400 1350
 F 0 "PSU1" H 7500 1400 50  0000 C CNN
-F 1 "PD05-20BXX" H 7400 -50 60  0000 L BNN
+F 1 "IRM-01-3.3" H 7400 -50 60  0000 L BNN
 F 2 "pwrcon:Meanwell_IRM_01_fixed" H 7400 -20 60  0001 C CNN
 F 3 "" H 7400 -20 60  0000 C CNN
 F 4 "Y" H 7400 1350 50  0001 C CNN "Fit"
-F 5 "PowerPax" H 7400 1350 50  0001 C CNN "Manufacturer"
-F 6 "PD05-20BXX" H 7400 1350 50  0001 C CNN "PartNo"
+F 5 "Meanwell" H 7400 1350 50  0001 C CNN "Manufacturer"
+F 6 "IRM-01-3.3" H 7400 1350 50  0001 C CNN "PartNo"
 	1    7400 1350
 	1    0    0    -1  
 $EndComp
