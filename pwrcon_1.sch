@@ -650,7 +650,7 @@ U 1 1 5F74616A
 P 9075 4450
 F 0 "TP4" H 9133 4568 50  0000 L CNN
 F 1 "TestPoint" H 9133 4477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 9275 4450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9275 4450 50  0001 C CNN
 F 3 "~" H 9275 4450 50  0001 C CNN
 	1    9075 4450
 	1    0    0    -1  
@@ -716,18 +716,6 @@ Wire Wire Line
 Wire Wire Line
 	6925 3100 7075 3100
 Connection ~ 7075 3100
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5F780F34
-P 6925 3100
-F 0 "TP7" H 6983 3218 50  0000 L CNN
-F 1 "TestPoint" H 6983 3127 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7125 3100 50  0001 C CNN
-F 3 "~" H 7125 3100 50  0001 C CNN
-	1    6925 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 6925 3100
 $Comp
 L Device:C_Small C6
 U 1 1 5F7866DF

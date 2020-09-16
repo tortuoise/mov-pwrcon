@@ -1,197 +1,400 @@
-44025189932863
-Filter
-Filter_1109-5_1.1x0.9mm
-5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)
-Filter 5
-0
-5
-5
-Filter
-Filter_1411-5_1.4x1.1mm
-5-pin filter package - 1.4x1.1 mm Body; (see https://global.kyocera.com/prdct/electro/product/pdf/sf14_tdlte.pdf)
-Filter 5
-0
-5
-5
-Filter
-Filter_Bourns_SRF0905_6.0x9.2mm
-https://www.bourns.com/docs/Product-Datasheets/SRF0905.pdf
-Line Filter
-0
-4
-4
-Filter
-Filter_Mini-Circuits_FV1206
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206.pdf
-Mini-Circuits Filter SMD 1206
-0
-6
-4
-Filter
-Filter_Mini-Circuits_FV1206-1
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-1.pdf
-Mini-Circuits Filter SMD 1206
-0
-6
-6
-Filter
-Filter_Mini-Circuits_FV1206-4
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-4.pdf
-Mini-Circuits Filter SMD 1206
-0
-8
-4
-Filter
-Filter_Mini-Circuits_FV1206-5
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-5.pdf
-Mini-Circuits Filter SMD 1206
-0
-8
-4
-Filter
-Filter_Mini-Circuits_FV1206-6
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-6.pdf
-Mini-Circuits Filter SMD 1206
-0
-14
-8
-Filter
-Filter_Mini-Circuits_FV1206-7
-Mini-Circuits Filter SMD 1206 https://ww2.minicircuits.com/case_style/FV1206-7.pdf
-Mini-Circuits Filter SMD 1206
-0
-5
-3
-Filter
-Filter_Murata_BNX025
-https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000
-EMI Filter
-0
-6
-4
-Filter
-Filter_Murata_BNX025_ThermalVias
-https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000
-EMI Filter
-0
-19
-4
-Filter
-Filter_Schaffner_FN405
-Compact PCB mounting EMI filter (https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/)
-EMI filter
-0
-5
-5
-Filter
-Filter_Schaffner_FN406
-Ultra Compact EMC Filter (https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/)
-emi filter
-0
-5
-5
-pwrcon
-CP_Elec_EEV_16x17.5
-SMD capacitor, aluminum electrolytic, Vishay 1616, 16.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
+89726665710938
+TestPoint
+TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
+CONN DEV
 0
 2
 2
-pwrcon
-Co-axial_Connector_RF
-
-
-0
-4
-4
-pwrcon
-Meanwell_IRM_01
-
-
-0
-4
-4
-pwrcon
-Meanwell_IRM_01_copy
-
-
-0
-4
-4
-pwrcon
-Meanwell_IRM_01_fixed
-
-
-0
-4
-4
-pwrcon
-SolderWirePad_1x03_P2.54mm_Drill0.8mm
-Wire solder connection
-connector
-0
-3
-3
-pwrcon
-SolderWirePad_2x04_P2.54mm_Drill0.8mm
-Wire solder connection
-connector
-0
-8
-8
-pwrcon
-TDK_Filter
-
-
-0
-4
-4
-pwrcon
-TMP006_YZF
-
-
-0
-0
-0
-pwrcon
-TO-92_BC237_307
-TO-92 leads molded, narrow, drill 0.6mm
-to-92 transistor
-0
-3
-3
-pwrcon
-Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
-tag connect programming header pogo pins
-0
-10
-10
-pwrcon
-Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_CC_SMD
-Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
-tag connect programming header pogo pins
-0
-10
-10
-pwrcon
-Taiyo_WLAN
-
-
+TestPoint
+TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
 0
 2
 2
-pwrcon
-choke_wurth_744862250
-NF-Transformer, 1:1, ETAL P1200,http://www.etalgroup.com/sites/default/files/products/P1200_April_2005.pdf
-NF-Transformer 1to1 ETAL P1200 
+TestPoint
+TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
 0
-4
-4
-pwrcon
-xformer_2xPri_2xSec
-Trafo, Printtrafo, CHK, EI30, 2VA, 2x Sec,
-Trafo Printtrafo CHK EI30 2VA 2x Sec 
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
 0
-10
-10
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.0mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.3mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
+wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill0.7mm
+wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill1.3mm
+wire loop as test point, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch6.35mm_Drill1.3mm
+wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch7.62mm_Drill1.3mm
+wire loop as test point, pitch 7.62mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Keystone_5000-5004_Miniature
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5005-5009_Compact
+Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5010-5014_Multipurpose
+Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5015_Micro-Minature
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5019_Minature
+SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile
+low profile wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.85mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded
+wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.0mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.5mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.8mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.8mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.5x1.5mm
+SMD rectangular pad as test Point, square 1.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.5x2.5mm
+SMD rectangular pad as test Point, square 2.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_3.0x3.0mm
+SMD rectangular pad as test Point, square 3.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_4.0x4.0mm
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.5mm
+SMD pad as test Point, diameter 2.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D4.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D2.0mm
+Plated Hole as test Point, diameter 2.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D3.0mm
+Plated Hole as test Point, diameter 3.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D4.0mm
+Plated Hole as test Point, diameter 4.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D5.0mm
+Plated Hole as test Point, diameter 5.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
+THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
+THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
+THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.5x2.5mm_Drill1.2mm
+THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_3.0x3.0mm_Drill1.5mm
+THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_4.0x4.0mm_Drill2.0mm
+THT rectangular pad as test Point, square 4.0mm  side length, hole diameter 2.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.0mm_Drill0.5mm
+THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.5mm_Drill0.7mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.0mm_Drill1.0mm
+THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.5mm_Drill1.2mm
+THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D3.0mm_Drill1.5mm
+THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D4.0mm_Drill2.0mm
+THT pad as test Point, diameter 4.0mm, hole diameter 2.0mm
+test point THT pad
+0
+1
+1
