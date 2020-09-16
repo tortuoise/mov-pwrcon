@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name pwrcon-rescue)(type Legacy)(uri ${KIPRJMOD}/pwrcon_1-rescue.lib)(options "")(descr ""))
+  (lib (name 2020-09-12_17-01-44)(type Legacy)(uri ${KIPRJMOD}/footprints/ul_THVD1500D/KiCAD/2020-09-12_17-01-44/2020-09-12_17-01-44.lib)(options "")(descr ""))
+  (lib (name 2020-09-12_17-09-47)(type Legacy)(uri ${KIPRJMOD}/footprints/ul_ISOW7841DWE/KiCAD/2020-09-12_17-09-47/2020-09-12_17-09-47.lib)(options "")(descr ""))
+  (lib (name 2020-09-12_16-45-05)(type Legacy)(uri ${KIPRJMOD}/footprints/ul_SN74LV1T34DBVR/KiCAD/2020-09-12_16-45-05/2020-09-12_16-45-05.lib)(options "")(descr ""))
+  (lib (name 2020-09-15_11-05-09)(type Legacy)(uri ${KIPRJMOD}/footprints/ul_SMW310RJT/KiCAD/2020-09-15_11-05-09/2020-09-15_11-05-09.lib)(options "")(descr ""))
 )
