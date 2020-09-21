@@ -264,6 +264,26 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -423,6 +443,26 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Varistor
+#
+DEF Device_Varistor RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Regulator_Linear_MIC5219-3.3YMM
 #
 DEF Regulator_Linear_MIC5219-3.3YMM U 0 10 Y Y 1 F N
@@ -470,25 +510,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GNDA 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# pwrcon-rescue_CAP_POL-baseunit
-#
-DEF pwrcon-rescue_CAP_POL-baseunit IC 0 40 Y Y 1 F N
-F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_CAP_POL-baseunit" 290 -160 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-A 100 -300 160 524 900 1 1 10 N 197 -173 99 -140
-A 100 -300 160 900 1275 1 1 10 N 99 -140 2 -173
-T 0 130 -80 42 0 1 1 + Normal 0 L B
-P 2 0 1 10 0 -100 200 -100 N
-P 2 0 1 10 100 -140 100 -200 N
-P 2 0 1 10 100 0 100 -100 N
-X 1 1 100 100 100 D 1 1 0 1 P
-X 2 2 100 -300 100 U 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -551,31 +572,11 @@ X 2 2 600 -100 300 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# pwrcon-rescue_LED_18-baseunit
+# pwrcon_choke
 #
-DEF pwrcon-rescue_LED_18-baseunit IC 0 40 Y Y 1 F N
+DEF pwrcon_choke IC 0 40 Y Y 1 F N
 F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_LED_18-baseunit" 0 -170 60 V V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 10 100 -200 200 -200 N
-P 2 0 1 10 100 -130 100 -270 N
-P 2 0 1 10 120 -90 60 -150 N
-P 2 0 1 10 180 -90 120 -150 N
-P 6 0 1 10 90 -100 90 -100 130 -80 110 -120 90 -100 90 -100 F
-P 6 0 1 10 100 -200 100 -200 0 -270 0 -130 100 -200 100 -200 F
-P 6 0 1 10 150 -100 150 -100 190 -80 170 -120 150 -100 150 -100 F
-X 1 1 -100 -200 100 R 70 1 0 1 P
-X 2 2 200 -200 10 L 70 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# pwrcon-rescue_TRANSFORMER_ISOLATED_1_0-baseunit
-#
-DEF pwrcon-rescue_TRANSFORMER_ISOLATED_1_0-baseunit IC 0 40 Y Y 1 F N
-F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_TRANSFORMER_ISOLATED_1_0-baseunit" -450 -370 60 V V L BNN
+F1 "pwrcon_choke" -225 -325 60 V V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -611,25 +612,6 @@ X 1 1 0 100 100 D 70 1 0 1 P
 X 2 2 0 -500 100 U 70 1 0 1 P
 X 3 3 200 -500 100 U 70 1 0 1 P
 X 4 4 200 100 100 D 70 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# pwrcon-rescue_VARISTOR-baseunit
-#
-DEF pwrcon-rescue_VARISTOR-baseunit IC 0 40 Y Y 1 F N
-F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_VARISTOR-baseunit" -400 -170 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 10 20 -160 20 -200 N
-P 2 0 1 10 60 -200 60 0 N
-P 2 0 1 10 60 0 140 0 N
-P 2 0 1 10 140 -200 60 -200 N
-P 2 0 1 10 140 0 140 -200 N
-P 2 0 1 10 180 0 20 -160 N
-X 1 1 100 100 100 D 1 1 0 1 P
-X 2 2 100 -300 100 U 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
