@@ -199,6 +199,33 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Screw_Terminal_01x03
+#
+DEF Connector_Screw_Terminal_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_TestPoint
 #
 DEF Connector_TestPoint TP 0 30 N N 1 F N
@@ -513,27 +540,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pwrcon-rescue_CON3-baseunit
+# pwrcon_DIODE_TVS-unidirectional
 #
-DEF pwrcon-rescue_CON3-baseunit IC 0 40 Y Y 1 F N
+DEF pwrcon_DIODE_TVS-unidirectional IC 0 40 Y Y 1 F N
 F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_CON3-baseunit" -260 -570 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S 0 0 200 -400 0 1 10 f
-S 200 -400 0 0 0 1 10 f
-X 1 1 -300 -100 300 R 70 1 0 1 P
-X 2 2 -300 -200 300 R 70 1 0 1 P
-X 3 3 -300 -300 300 R 70 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# pwrcon-rescue_DIODE_TVS-baseunit
-#
-DEF pwrcon-rescue_DIODE_TVS-baseunit IC 0 40 Y Y 1 F N
-F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_DIODE_TVS-baseunit" 260 110 60 V V L BNN
+F1 "pwrcon_DIODE_TVS-unidirectional" 260 110 60 V V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -551,11 +562,11 @@ X ANODE 2 -100 -100 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# pwrcon-rescue_FUSEHOLDER-baseunit
+# pwrcon_Fuseholder
 #
-DEF pwrcon-rescue_FUSEHOLDER-baseunit IC 0 40 Y Y 1 F N
+DEF pwrcon_Fuseholder IC 0 40 Y Y 1 F N
 F0 "IC" 0 0 60 H V C CNN
-F1 "pwrcon-rescue_FUSEHOLDER-baseunit" -200 -270 60 H V L BNN
+F1 "pwrcon_Fuseholder" -200 -270 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

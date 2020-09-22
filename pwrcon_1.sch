@@ -237,7 +237,7 @@ F 6 "820572711" H 6900 2000 50  0001 C CNN "PartNo"
 F 7 "Wurth Elektronik" H 6900 2000 50  0001 C CNN "MFG Name"
 F 8 "820572711" H 6900 2000 50  0001 C CNN "MFG Part Num"
 	1    6900 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Connection ~ 6150 2050
 $Comp
@@ -336,18 +336,20 @@ Wire Wire Line
 Connection ~ 6150 2450
 Connection ~ 6900 2450
 $Comp
-L pwrcon-rescue:CON3-baseunit J4
+L Connector:Screw_Terminal_01x03 J4
 U 1 1 5BE08656
-P 1650 2550
-F 0 "J4" H 1700 2600 50  0000 C CNN
-F 1 "CON3" H 1850 2050 60  0000 R BNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 1910 1980 60  0001 C CNN
-F 3 "" H 1910 1980 60  0000 C CNN
-F 4 "ED2355-ND" H 1650 2550 50  0001 C CNN "dis_digikey"
-F 5 "Y" H 1650 2550 50  0001 C CNN "Fit"
-F 6 "On Shore technology" H 1650 2550 50  0001 C CNN "Manufacturer"
-F 7 "ED365/3" H 1650 2550 50  0001 C CNN "PartNo"
-	1    1650 2550
+P 1750 2750
+F 0 "J4" H 1800 2800 50  0000 C CNN
+F 1 "CON3" H 1950 2975 60  0000 R BNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 2010 2180 60  0001 C CNN
+F 3 "" H 2010 2180 60  0000 C CNN
+F 4 "ED2355-ND" H 1750 2750 50  0001 C CNN "dis_digikey"
+F 5 "Y" H 1750 2750 50  0001 C CNN "Fit"
+F 6 "" H 1750 2750 50  0001 C CNN "Manufacturer"
+F 7 "" H 1750 2750 50  0001 C CNN "PartNo"
+F 8 "On Shore Technology" H 1750 2750 50  0001 C CNN "MFG Name"
+F 9 " ED365/3" H 1750 2750 50  0001 C CNN "MFG Part Num"
+	1    1750 2750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -401,6 +403,8 @@ F 3 "" H 5350 1850 60  0001 C CNN
 F 4 "Y" V 5350 1850 50  0001 C CNN "Fit"
 F 5 "Wurth Elektronik" V 5350 1850 50  0001 C CNN "Manufacturer"
 F 6 "744862250" V 5350 1850 50  0001 C CNN "PartNo"
+F 7 "Wurth Elektronik" H 5350 1850 50  0001 C CNN "MFG Name"
+F 8 "744862250" H 5350 1850 50  0001 C CNN "MFG Part Num"
 	1    5350 1850
 	0    1    1    0   
 $EndComp
@@ -416,7 +420,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1550 2550 2650
 $Comp
-L pwrcon-rescue:FUSEHOLDER-baseunit F1
+L pwrcon:Fuseholder F1
 U 1 1 5BE08682
 P 2850 1450
 F 0 "F1" H 2900 1500 50  0000 C CNN
@@ -425,6 +429,8 @@ F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" H 2650 
 F 3 "" H 2650 1180 60  0000 C CNN
 F 4 "Y" H 2850 1450 50  0001 C CNN "Fit"
 F 5 "0031.8201" H 2850 1450 50  0001 C CNN "PartNo"
+F 6 "Schurter Inc" H 2850 1450 50  0001 C CNN "MFG Name"
+F 7 "0031.8201" H 2850 1450 50  0001 C CNN "MFG Part Num"
 	1    2850 1450
 	1    0    0    -1  
 $EndComp
@@ -460,17 +466,6 @@ Wire Wire Line
 	4350 7050 4350 7225
 Wire Wire Line
 	3225 7050 4350 7050
-$Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 5ECCF259
-P 4250 7425
-F 0 "J6" V 4122 7605 50  0000 L CNN
-F 1 "Conn_01x04" V 4213 7605 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4250 7425 50  0001 C CNN
-F 3 "~" H 4250 7425 50  0001 C CNN
-	1    4250 7425
-	0    1    1    0   
-$EndComp
 $Comp
 L 2020-09-12_16-45-05:SN74LV1T34DBVR U4
 U 1 1 5F6122C0
@@ -814,18 +809,20 @@ F 3 "" H 10900 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwrcon-rescue:CON3-baseunit J7
+L Connector:Screw_Terminal_01x03 J7
 U 1 1 5F7BD097
-P 10900 6050
-F 0 "J7" H 10950 6100 50  0000 C CNN
-F 1 "CON3" H 11100 5550 60  0000 R BNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 11160 5480 60  0001 C CNN
-F 3 "" H 11160 5480 60  0000 C CNN
-F 4 "ED2355-ND" H 10900 6050 50  0001 C CNN "dis_digikey"
-F 5 "Y" H 10900 6050 50  0001 C CNN "Fit"
-F 6 "On Shore technology" H 10900 6050 50  0001 C CNN "Manufacturer"
-F 7 "ED365/3" H 10900 6050 50  0001 C CNN "PartNo"
-	1    10900 6050
+P 10800 5850
+F 0 "J7" H 10850 5900 50  0000 C CNN
+F 1 "CON3" H 11100 5775 60  0000 R BNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 11060 5280 60  0001 C CNN
+F 3 "" H 11060 5280 60  0000 C CNN
+F 4 "ED2355-ND" H 10800 5850 50  0001 C CNN "dis_digikey"
+F 5 "Y" H 10800 5850 50  0001 C CNN "Fit"
+F 6 "On Shore technology" H 10800 5850 50  0001 C CNN "Manufacturer"
+F 7 "ED365/3" H 10800 5850 50  0001 C CNN "PartNo"
+F 8 "On Shore technology" H 10800 5850 50  0001 C CNN "MFG Name"
+F 9 "ED365/3" H 10800 5850 50  0001 C CNN "MFG Part Num"
+	1    10800 5850
 	1    0    0    1   
 $EndComp
 $Comp
@@ -989,18 +986,20 @@ $EndComp
 Wire Wire Line
 	7775 3400 7775 3300
 $Comp
-L pwrcon-rescue:CON3-baseunit J1
+L Connector:Screw_Terminal_01x03 J1
 U 1 1 5F8D7C03
-P 725 6950
-F 0 "J1" H 775 7000 50  0000 C CNN
-F 1 "CON3" H 925 6450 60  0000 R BNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 985 6380 60  0001 C CNN
-F 3 "" H 985 6380 60  0000 C CNN
-F 4 "ED2355-ND" H 725 6950 50  0001 C CNN "dis_digikey"
-F 5 "Y" H 725 6950 50  0001 C CNN "Fit"
-F 6 "On Shore technology" H 725 6950 50  0001 C CNN "Manufacturer"
-F 7 "ED365/3" H 725 6950 50  0001 C CNN "PartNo"
-	1    725  6950
+P 825 7150
+F 0 "J1" H 875 7200 50  0000 C CNN
+F 1 "CON3" H 1025 6650 60  0000 R BNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical" H 1085 6580 60  0001 C CNN
+F 3 "" H 1085 6580 60  0000 C CNN
+F 4 "ED2355-ND" H 825 7150 50  0001 C CNN "dis_digikey"
+F 5 "Y" H 825 7150 50  0001 C CNN "Fit"
+F 6 "" H 825 7150 50  0001 C CNN "Manufacturer"
+F 7 "" H 825 7150 50  0001 C CNN "PartNo"
+F 8 "On Shore Technology" H 825 7150 50  0001 C CNN "MFG Name"
+F 9 " ED365/3" H 825 7150 50  0001 C CNN "MFG Part Num"
+	1    825  7150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1266,7 +1265,7 @@ F 8 "T495V157M010ATE150" H 8100 1750 50  0001 C CNN "MFG Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwrcon-rescue:DIODE_TVS-baseunit D2
+L pwrcon:DIODE_TVS-unidirectional D2
 U 1 1 5BE08675
 P 9450 2050
 F 0 "D2" V 9750 2025 50  0000 C CNN
@@ -1296,19 +1295,6 @@ Wire Wire Line
 Connection ~ 5850 2850
 Wire Wire Line
 	5850 2850 8200 2850
-$Comp
-L Converter_ACDC:IRM-02-5 PS1
-U 1 1 5F7A3C57
-P 7500 1650
-F 0 "PS1" H 7500 1975 50  0000 C CNN
-F 1 "IRM-01-5" H 7500 1884 50  0000 C CNN
-F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT" H 7500 1350 50  0001 C CNN
-F 3 "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF" H 7900 1300 50  0001 C CNN
-F 4 "Meanwell" H 7500 1650 50  0001 C CNN "MFG Name"
-F 5 "IRM-01-5" H 7500 1650 50  0001 C CNN "MFG Part Num"
-	1    7500 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 1750 7100 2450
 Wire Wire Line
@@ -1378,4 +1364,28 @@ Wire Wire Line
 	8100 1850 8100 2250
 Wire Wire Line
 	6900 2150 6900 2450
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5ECCF259
+P 4250 7425
+F 0 "J6" V 4122 7605 50  0000 L CNN
+F 1 "Conn_01x04" V 4213 7605 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4250 7425 50  0001 C CNN
+F 3 "~" H 4250 7425 50  0001 C CNN
+	1    4250 7425
+	0    1    1    0   
+$EndComp
+$Comp
+L Converter_ACDC:IRM-02-5 PS1
+U 1 1 5F7A3C57
+P 7500 1650
+F 0 "PS1" H 7500 1975 50  0000 C CNN
+F 1 "IRM-01-5" H 7500 1884 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT" H 7500 1350 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF" H 7900 1300 50  0001 C CNN
+F 4 "Meanwell" H 7500 1650 50  0001 C CNN "MFG Name"
+F 5 "IRM-01-5" H 7500 1650 50  0001 C CNN "MFG Part Num"
+	1    7500 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
