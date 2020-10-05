@@ -574,8 +574,6 @@ Wire Wire Line
 Wire Wire Line
 	8675 5050 8675 5150
 Wire Wire Line
-	9000 4950 9375 4950
-Wire Wire Line
 	9000 4050 9000 4950
 Wire Wire Line
 	8675 4050 9000 4050
@@ -1338,20 +1336,6 @@ Wire Wire Line
 Connection ~ 9425 4650
 Wire Wire Line
 	9425 4650 8675 4650
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5F9E5816
-P 9375 4950
-F 0 "TP5" H 9433 5068 50  0000 L CNN
-F 1 "TestPoint" H 9275 5150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9575 4950 50  0001 C CNN
-F 3 "~" H 9575 4950 50  0001 C CNN
-	1    9375 4950
-	-1   0    0    1   
-$EndComp
-Connection ~ 9375 4950
-Wire Wire Line
-	9375 4950 9500 4950
 Wire Wire Line
 	3500 4600 3600 4600
 Wire Wire Line
@@ -1388,4 +1372,10 @@ F 5 "IRM-01-5" H 7500 1650 50  0001 C CNN "MFG Part Num"
 	1    7500 1650
 	1    0    0    -1  
 $EndComp
+Text Label 7425 3100 2    50   ~ 0
+5VDC
+Text Label 8800 3850 0    50   ~ 0
+vcc
+Wire Wire Line
+	9000 4950 9500 4950
 $EndSCHEMATC
